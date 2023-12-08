@@ -1,0 +1,17 @@
+
+file:
+  upload-path: files/upload-dir
+  output-path: files/output-dir
+  output-filename: OutcomeFile.json
+  input-structure:
+    - UUID
+    - ID
+    - Name
+    - Likes
+    - Transport
+    - Avg Speed
+    - Top Speed
+  output-structure:
+    - Name
+    - Transport
+    - Top Speed
